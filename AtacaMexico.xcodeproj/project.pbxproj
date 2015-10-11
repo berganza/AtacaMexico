@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A3BC2E21BB7ADBD00AD7EA7 /* SKNode+Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BC2E11BB7ADBD00AD7EA7 /* SKNode+Extra.swift */; settings = {ASSET_TAGS = (); }; };
+		9A3BC2E41BB7BF8D00AD7EA7 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3BC2E31BB7BF8D00AD7EA7 /* GameOverScene.swift */; settings = {ASSET_TAGS = (); }; };
+		9A3BC2E81BB7E25500AD7EA7 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A3BC2E61BB7E25500AD7EA7 /* spark.png */; settings = {ASSET_TAGS = (); }; };
+		9A3BC2EB1BB7EA3900AD7EA7 /* MissileExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A3BC2E91BB7EA3900AD7EA7 /* MissileExplosion.sks */; settings = {ASSET_TAGS = (); }; };
+		9A3BC2EC1BB7EA3900AD7EA7 /* EnemyExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A3BC2EA1BB7EA3900AD7EA7 /* EnemyExplosion.sks */; settings = {ASSET_TAGS = (); }; };
+		9A44D3C61BB5E07800BA2FEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44D3C51BB5E07800BA2FEA /* AppDelegate.swift */; };
+		9A44D3C81BB5E07800BA2FEA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9A44D3C71BB5E07800BA2FEA /* GameScene.sks */; };
+		9A44D3CA1BB5E07800BA2FEA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44D3C91BB5E07800BA2FEA /* GameScene.swift */; };
+		9A44D3CC1BB5E07800BA2FEA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44D3CB1BB5E07800BA2FEA /* GameViewController.swift */; };
+		9A44D3CF1BB5E07800BA2FEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A44D3CD1BB5E07800BA2FEA /* Main.storyboard */; };
+		9A44D3D11BB5E07800BA2FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A44D3D01BB5E07800BA2FEA /* Assets.xcassets */; };
+		9A44D3D41BB5E07800BA2FEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A44D3D21BB5E07800BA2FEA /* LaunchScreen.storyboard */; };
+		9A65E8001BB6B18000D82757 /* PlayerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65E7FF1BB6B18000D82757 /* PlayerNode.swift */; settings = {ASSET_TAGS = (); }; };
+		9A65E8021BB6BECC00D82757 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65E8011BB6BECC00D82757 /* Geometry.swift */; settings = {ASSET_TAGS = (); }; };
+		9A65E8041BB6E12900D82757 /* EnemyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65E8031BB6E12900D82757 /* EnemyNode.swift */; settings = {ASSET_TAGS = (); }; };
+		9A65E8061BB6F20600D82757 /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65E8051BB6F20600D82757 /* PhysicsCategories.swift */; settings = {ASSET_TAGS = (); }; };
+		9A65E8081BB6F2EA00D82757 /* BulletNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A65E8071BB6F2EA00D82757 /* BulletNode.swift */; settings = {ASSET_TAGS = (); }; };
+		9A7688C41BB983B7008EFAC2 /* bip.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9A7688C31BB983B7008EFAC2 /* bip.wav */; settings = {ASSET_TAGS = (); }; };
+		9A7688C61BB984E4008EFAC2 /* bombaPequena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A7688C51BB984E4008EFAC2 /* bombaPequena.mp3 */; settings = {ASSET_TAGS = (); }; };
+		9A7688CA1BB987C2008EFAC2 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A7688C91BB987C2008EFAC2 /* explosion.mp3 */; settings = {ASSET_TAGS = (); }; };
+		9A7688CC1BB98B74008EFAC2 /* electricidad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A7688CB1BB98B74008EFAC2 /* electricidad.mp3 */; settings = {ASSET_TAGS = (); }; };
+		9A7688CF1BB98D8B008EFAC2 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A7688CE1BB98D8B008EFAC2 /* error.mp3 */; settings = {ASSET_TAGS = (); }; };
+		9A8DC9C81BB84A36007D3A24 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8DC9C71BB84A36007D3A24 /* StartScene.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A3BC2E11BB7ADBD00AD7EA7 /* SKNode+Extra.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extra.swift"; sourceTree = "<group>"; };
+		9A3BC2E31BB7BF8D00AD7EA7 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		9A3BC2E61BB7E25500AD7EA7 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		9A3BC2E91BB7EA3900AD7EA7 /* MissileExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MissileExplosion.sks; sourceTree = "<group>"; };
+		9A3BC2EA1BB7EA3900AD7EA7 /* EnemyExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyExplosion.sks; sourceTree = "<group>"; };
+		9A44D3C21BB5E07700BA2FEA /* AtacaMexico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtacaMexico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A44D3C51BB5E07800BA2FEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A44D3C71BB5E07800BA2FEA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9A44D3C91BB5E07800BA2FEA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9A44D3CB1BB5E07800BA2FEA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9A44D3CE1BB5E07800BA2FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A44D3D01BB5E07800BA2FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A44D3D31BB5E07800BA2FEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A44D3D51BB5E07800BA2FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A65E7FF1BB6B18000D82757 /* PlayerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerNode.swift; sourceTree = "<group>"; };
+		9A65E8011BB6BECC00D82757 /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		9A65E8031BB6E12900D82757 /* EnemyNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyNode.swift; sourceTree = "<group>"; };
+		9A65E8051BB6F20600D82757 /* PhysicsCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicsCategories.swift; sourceTree = "<group>"; };
+		9A65E8071BB6F2EA00D82757 /* BulletNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletNode.swift; sourceTree = "<group>"; };
+		9A7688C31BB983B7008EFAC2 /* bip.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bip.wav; sourceTree = "<group>"; };
+		9A7688C51BB984E4008EFAC2 /* bombaPequena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bombaPequena.mp3; sourceTree = "<group>"; };
+		9A7688C91BB987C2008EFAC2 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		9A7688CB1BB98B74008EFAC2 /* electricidad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = electricidad.mp3; sourceTree = "<group>"; };
+		9A7688CE1BB98D8B008EFAC2 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		9A8DC9C71BB84A36007D3A24 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A44D3BF1BB5E07700BA2FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3BC2ED1BB80A0800AD7EA7 /* Sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				9A7688C31BB983B7008EFAC2 /* bip.wav */,
+				9A7688C51BB984E4008EFAC2 /* bombaPequena.mp3 */,
+				9A7688C91BB987C2008EFAC2 /* explosion.mp3 */,
+				9A7688CB1BB98B74008EFAC2 /* electricidad.mp3 */,
+				9A7688CE1BB98D8B008EFAC2 /* error.mp3 */,
+			);
+			name = Sonidos;
+			sourceTree = "<group>";
+		};
+		9A44D3B91BB5E07700BA2FEA = {
+			isa = PBXGroup;
+			children = (
+				9A3BC2ED1BB80A0800AD7EA7 /* Sonidos */,
+				9A44D3C41BB5E07800BA2FEA /* AtacaMexico */,
+				9A44D3C31BB5E07700BA2FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A44D3C31BB5E07700BA2FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A44D3C21BB5E07700BA2FEA /* AtacaMexico.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A44D3C41BB5E07800BA2FEA /* AtacaMexico */ = {
+			isa = PBXGroup;
+			children = (
+				9A44D3C51BB5E07800BA2FEA /* AppDelegate.swift */,
+				9A44D3C71BB5E07800BA2FEA /* GameScene.sks */,
+				9A44D3C91BB5E07800BA2FEA /* GameScene.swift */,
+				9A44D3CB1BB5E07800BA2FEA /* GameViewController.swift */,
+				9A65E7FF1BB6B18000D82757 /* PlayerNode.swift */,
+				9A65E8011BB6BECC00D82757 /* Geometry.swift */,
+				9A65E8031BB6E12900D82757 /* EnemyNode.swift */,
+				9A65E8051BB6F20600D82757 /* PhysicsCategories.swift */,
+				9A65E8071BB6F2EA00D82757 /* BulletNode.swift */,
+				9A3BC2E11BB7ADBD00AD7EA7 /* SKNode+Extra.swift */,
+				9A3BC2E31BB7BF8D00AD7EA7 /* GameOverScene.swift */,
+				9A8DC9C71BB84A36007D3A24 /* StartScene.swift */,
+				9A3BC2E91BB7EA3900AD7EA7 /* MissileExplosion.sks */,
+				9A3BC2EA1BB7EA3900AD7EA7 /* EnemyExplosion.sks */,
+				9A3BC2E61BB7E25500AD7EA7 /* spark.png */,
+				9A44D3CD1BB5E07800BA2FEA /* Main.storyboard */,
+				9A44D3D01BB5E07800BA2FEA /* Assets.xcassets */,
+				9A44D3D21BB5E07800BA2FEA /* LaunchScreen.storyboard */,
+				9A44D3D51BB5E07800BA2FEA /* Info.plist */,
+			);
+			path = AtacaMexico;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A44D3C11BB5E07700BA2FEA /* AtacaMexico */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A44D3D81BB5E07800BA2FEA /* Build configuration list for PBXNativeTarget "AtacaMexico" */;
+			buildPhases = (
+				9A44D3BE1BB5E07700BA2FEA /* Sources */,
+				9A44D3BF1BB5E07700BA2FEA /* Frameworks */,
+				9A44D3C01BB5E07700BA2FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtacaMexico;
+			productName = AtacaMexico;
+			productReference = 9A44D3C21BB5E07700BA2FEA /* AtacaMexico.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A44D3BA1BB5E07700BA2FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Berganza;
+				TargetAttributes = {
+					9A44D3C11BB5E07700BA2FEA = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9A44D3BD1BB5E07700BA2FEA /* Build configuration list for PBXProject "AtacaMexico" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A44D3B91BB5E07700BA2FEA;
+			productRefGroup = 9A44D3C31BB5E07700BA2FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A44D3C11BB5E07700BA2FEA /* AtacaMexico */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A44D3C01BB5E07700BA2FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3BC2EB1BB7EA3900AD7EA7 /* MissileExplosion.sks in Resources */,
+				9A7688CC1BB98B74008EFAC2 /* electricidad.mp3 in Resources */,
+				9A44D3C81BB5E07800BA2FEA /* GameScene.sks in Resources */,
+				9A3BC2E81BB7E25500AD7EA7 /* spark.png in Resources */,
+				9A44D3D41BB5E07800BA2FEA /* LaunchScreen.storyboard in Resources */,
+				9A3BC2EC1BB7EA3900AD7EA7 /* EnemyExplosion.sks in Resources */,
+				9A7688CA1BB987C2008EFAC2 /* explosion.mp3 in Resources */,
+				9A44D3D11BB5E07800BA2FEA /* Assets.xcassets in Resources */,
+				9A7688CF1BB98D8B008EFAC2 /* error.mp3 in Resources */,
+				9A7688C61BB984E4008EFAC2 /* bombaPequena.mp3 in Resources */,
+				9A7688C41BB983B7008EFAC2 /* bip.wav in Resources */,
+				9A44D3CF1BB5E07800BA2FEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A44D3BE1BB5E07700BA2FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3BC2E41BB7BF8D00AD7EA7 /* GameOverScene.swift in Sources */,
+				9A44D3CA1BB5E07800BA2FEA /* GameScene.swift in Sources */,
+				9A65E8081BB6F2EA00D82757 /* BulletNode.swift in Sources */,
+				9A44D3CC1BB5E07800BA2FEA /* GameViewController.swift in Sources */,
+				9A65E8001BB6B18000D82757 /* PlayerNode.swift in Sources */,
+				9A44D3C61BB5E07800BA2FEA /* AppDelegate.swift in Sources */,
+				9A65E8061BB6F20600D82757 /* PhysicsCategories.swift in Sources */,
+				9A65E8041BB6E12900D82757 /* EnemyNode.swift in Sources */,
+				9A65E8021BB6BECC00D82757 /* Geometry.swift in Sources */,
+				9A3BC2E21BB7ADBD00AD7EA7 /* SKNode+Extra.swift in Sources */,
+				9A8DC9C81BB84A36007D3A24 /* StartScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9A44D3CD1BB5E07800BA2FEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A44D3CE1BB5E07800BA2FEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A44D3D21BB5E07800BA2FEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A44D3D31BB5E07800BA2FEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A44D3D61BB5E07800BA2FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A44D3D71BB5E07800BA2FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A44D3D91BB5E07800BA2FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AtacaMexico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llberganza.AtacaMexico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A44D3DA1BB5E07800BA2FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AtacaMexico/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llberganza.AtacaMexico;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A44D3BD1BB5E07700BA2FEA /* Build configuration list for PBXProject "AtacaMexico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A44D3D61BB5E07800BA2FEA /* Debug */,
+				9A44D3D71BB5E07800BA2FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A44D3D81BB5E07800BA2FEA /* Build configuration list for PBXNativeTarget "AtacaMexico" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A44D3D91BB5E07800BA2FEA /* Debug */,
+				9A44D3DA1BB5E07800BA2FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A44D3BA1BB5E07700BA2FEA /* Project object */;
+}
